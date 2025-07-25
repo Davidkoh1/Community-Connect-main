@@ -1,6 +1,6 @@
 # Community-Connect
 David koh - CPT Assessment task 3
----
+
 ## Project Description
 ---
 ### Functional Requirements
