@@ -24,6 +24,9 @@ This project is a web application which will allow users to connect and interact
 ### Navigation
 Navigation will be through a range of menus, buttons, tabs, etc. Most of the navigation will be through a side menu, though the home page will contain most of the infomation/"pages" that you can choose between using the tabs in the top. There will be a drop down menu next to the profile picture in the top right in order to navigate through personal things such as settings, profile, etc. A main responsive side bar menu will act as the main navigation between major pages (Home page, Communities page, Events page, Browse pag, and Pinned pages).
 
-
-
-
+### Design Choices
+| **Design Choice** | **Justification** |
+|---|---|
+| Colour Palette | A light, muted colour palette was chosen to create website environment or aesthetic of Calmness, Sophistication and Invitation. Muted colours are easier on the eyes, and evoke a sense of peace and relaxation, which is perfect for my webapp. A lighter version of this colour palette was implemented to give a more inviting, homey feel to the website.|
+| Font and Typography | The font Inter was used for most text, as its minimalistic feel and easy to read nature makes it best suited for my webapp aesthetic. Important texts are bolded to different degrees based on the importance, in order to make certain element of the webapp more salient. | 
+| Image/Icon Choice | On most major pages, Icons and Pages are limited, except for the web logo, profile picture, etc. This supports the minimalistic design of the webapp. On community and event pages, the creators will be able to set background pictures.| 
