@@ -1,6 +1,8 @@
 # Community-Connect
 David koh - CPT Assessment task 3
 
+## Week 1 - Project Definition
+
 ### Project Description
 This project is a web application which will allow users to connect and interact with a socila network. Specifically, this web app called "Community Connect" is an application for users to organise IRL events for their communities. Users should also be able to browse and discover new communities. The project will have a range of functional and non-functional requirements, and should be completed in phases with the client (using a hybrid WAgile project style) to design and develop their dream social network application.
 
@@ -15,5 +17,13 @@ This project is a web application which will allow users to connect and interact
 - System should be able to load events relevant to the user e.g. relevant to area
 - App should be aesthetically pleasing and easy to navigate
 - The server should be able to maintain data for atleast 100 different events and communities
+
+
+## Week 2 - Basic Design of UI, Hierachy and Interactive Elements
+
+### Navigation
+Navigation will be through a range of menus, buttons, tabs, etc. Most of the navigation will be through a side menu, though the home page will contain most of the infomation/"pages" that you can choose between using the tabs in the top. There will be a drop down menu next to the profile picture in the top right in order to navigate through personal things such as settings, profile, etc. A main responsive side bar menu will act as the main navigation between major pages (Home page, Communities page, Events page, Browse pag, and Pinned pages).
+
+
 
 
