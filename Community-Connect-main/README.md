@@ -30,3 +30,6 @@ Navigation will be through a range of menus, buttons, tabs, etc. Most of the nav
 | Colour Palette | A light, muted colour palette was chosen to create website environment or aesthetic of Calmness, Sophistication and Invitation. Muted colours are easier on the eyes, and evoke a sense of peace and relaxation, which is perfect for my webapp. A lighter version of this colour palette was implemented to give a more inviting, homey feel to the website.|
 | Font and Typography | The font Inter was used for most text, as its minimalistic feel and easy to read nature makes it best suited for my webapp aesthetic. Important texts are bolded to different degrees based on the importance, in order to make certain element of the webapp more salient. | 
 | Image/Icon Choice | On most major pages, Icons and Pages are limited, except for the web logo, profile picture, etc. This supports the minimalistic design of the webapp. On community and event pages, the creators will be able to set background pictures.| 
+
+### Designs:
+![Should be image](Website Design 1 Home Page.png)
