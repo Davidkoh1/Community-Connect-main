@@ -32,4 +32,4 @@ Navigation will be through a range of menus, buttons, tabs, etc. Most of the nav
 | Image/Icon Choice | On most major pages, Icons and Pages are limited, except for the web logo, profile picture, etc. This supports the minimalistic design of the webapp. On community and event pages, the creators will be able to set background pictures.| 
 
 ### Designs:
-![Should be image](Website-Design-1-Home-Page.png)
+![image](Website-Design-1-Home-Page.png)
