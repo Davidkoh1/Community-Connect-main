@@ -33,4 +33,4 @@ Navigation will be through a range of menus, buttons, tabs, etc. Most of the nav
 
 ### Designs:
 ![Should be image](Website Design 1 Home Page.png)
-![image](Website Design 1 Home Page.png)
+![image](WebsiteDesign1HomePage.png)
