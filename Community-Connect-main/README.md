@@ -40,3 +40,35 @@ Sign Up Page:
 ![image](Website-Design-1-Sign-Up-Page.png)
 Log In Page: 
 ![image](Website-Design-1-Login-Page.png)
+
+## Week 3 - Alternative Website Designs
+
+### Data Flow
+1. Landing Page (Entry Point)
+    - User Action: Arrives at the website.
+    - New User: Click "Sign Up" --> [Sign Up Page]
+    - Returning User: Click "Log In" --> [Login Page]
+
+2. Sign Up & Login Pages
+    - User Action: Submits a form to create an account or log in.
+    - Data Flow: Credentials are sent to the Database.
+    - If valid, the user is authenticated.
+    - Next Step: Redirects the user to the Logged-In Home Page.
+
+3. Logged-In Home Page (Dashboard)
+    - User Action: Views personalized information and a community overview.
+    - Data Flow: Displays data pulled from the Database, including:
+        - User-Specific Events: Events they are organizing or attending.
+        - Community Events: Events taking place in communitites they are a part of, but have not RSVP'ed for
+    - Flow:
+        - Click an Event Card --> [Event Details Page]
+        - Click on drop down menu icon --> [Drop Down Menu]
+        - Click on a drop down menu option --> [Change Page]
+
+### Alternate Designs
+Home Page:
+![image](Website-Design-2-Home-Page-Annotated.png)
+Home Page2:
+![image](Website-Design-3-Home-Page-Annotated.png)
+Landind & Login Page:
+![image](Website-Design-2-Landing-Page-Annotated.png)
