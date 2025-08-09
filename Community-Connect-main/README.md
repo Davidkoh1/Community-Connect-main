@@ -38,3 +38,5 @@ Landing Page:
 ![image](Website-Design-1-Landing-Page.png)
 Sign Up Page:
 ![image](Website-Design-1-Sign-Up-Page.png)
+Log In Page: 
+![image](Website-Design-1-Login-Page.png)
