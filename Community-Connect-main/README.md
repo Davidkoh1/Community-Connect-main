@@ -52,8 +52,8 @@ Log In Page:
 2. Sign Up & Login Pages
     - User Action: Submits a form to create an account or log in.
     - Data Flow: Credentials are sent to the Database.
-    - If valid, the user is authenticated.
-    - Next Step: Redirects the user to the Logged-In Home Page.
+        - If valid, the user is authenticated.
+        - Next Step: Redirects the user to the Logged-In Home Page.
 
 3. Logged-In Home Page (Dashboard)
     - User Action: Views personalized information and a community overview.
