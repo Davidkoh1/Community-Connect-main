@@ -68,7 +68,9 @@ Log In Page:
 ### Alternate Designs
 Home Page:
 ![image](Website-Design-2-Home-Page-Annotated.png)
+
 Home Page2:
 ![image](Website-Design-3-Home-Page-Annotated.png)
-Landind & Login Page:
+
+Landing & Login Page:
 ![image](Website-Design-2-Landing-Page-Annotated.png)
