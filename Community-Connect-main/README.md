@@ -92,7 +92,8 @@ Landing & Login Page:
 
 ### Test Cases
 Case testing was done using the following python code:
----
+
+```
 from datetime import datetime
 
 event = {
@@ -112,11 +113,7 @@ event["time"] = input("Time?: ")
 event["location"] = input("Location?: ")
 
 def check_For_Errors():
-    """
-    Checks for empty event fields and populates the errors dictionary.
-    Includes a check to ensure the date is in the future.
-    """
-    # Check for empty fields
+
     if not event["title"]:
         errors["title"] = "Event Title Cannot Be Empty"
 
@@ -158,5 +155,48 @@ else:
     print(f"Date: {event['date']}")
     print(f"Time: {event['time']}")
     print(f"Location: {event['location']}")
+```
 
----
+Sample Outcomes:
+
+Sample 1
+
+Title?: Marine Life Expedition\
+Description?: Researchers will participate in an expedition to research marine life near the bottom of the south pacific ocean   \
+Date? (dd/mm/yyyy): 20/11/25\
+Time?: 0900\
+Location?: Sydney Wharf\
+Errors found:\
+- Invalid date format. Please use dd/mm/yyyy.
+
+Sample 2
+
+Title?: Marine Life Expedition\
+Description?: Researchers will participate in an expedition to research marine life near the bottom of the south pacific ocean\
+Date? (dd/mm/yyyy): 20/11/2025\
+Time?: 0900\
+Location?: Sydney Wharf\
+No errors found. Event is valid.
+
+--- New Event Details ---\
+Title: Marine Life Expedition\
+Description: Researchers will participate in an expedition to research marine life near the bottom of the south pacific ocean\
+Date: 20/11/2025\
+Time: 0900\
+Location: Sydney Wharf
+
+Sample 3
+
+Title?: School Excursion\
+Description?: Non-Compulsory Year 6 Excursion to Taronga Zoo\
+Date? (dd/mm/yyyy): 21/01/2026\
+Time?: 0830\
+Location?: School Courtyard\
+No errors found. Event is valid.
+
+--- New Event Details ---\
+Title: School Excursion\
+Description: Non-Compulsory Year 6 Excursion to Taronga Zoo\
+Date: 21/01/2026\
+Time: 0830\
+Location: School Courtyard
