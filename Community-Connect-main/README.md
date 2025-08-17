@@ -33,12 +33,19 @@ Navigation will be through a range of menus, buttons, tabs, etc. Most of the nav
 
 ### Designs:
 Home Page:
+
 ![image](Website-Design-1-Home-Page.png)
+
 Landing Page:
+
 ![image](Website-Design-1-Landing-Page.png)
+
 Sign Up Page:
+
 ![image](Website-Design-1-Sign-Up-Page.png)
+
 Log In Page: 
+
 ![image](Website-Design-1-Login-Page.png)
 
 ## Week 3 - Alternative Website Designs
