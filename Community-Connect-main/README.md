@@ -84,3 +84,8 @@ Home Page2:
 Landing & Login Page:
 
 ![image](Website-Design-2-Landing-Page-Annotated.png)
+
+## Week 4 - Designing Algorithm
+
+### Algorithm Flow Chart
+![image](AlgorithmFlowChart.png)
