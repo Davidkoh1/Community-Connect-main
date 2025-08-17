@@ -89,3 +89,74 @@ Landing & Login Page:
 
 ### Algorithm Flow Chart
 ![image](AlgorithmFlowChart.png)
+
+### Test Cases
+Case testing was done using the following python code:
+---
+from datetime import datetime
+
+event = {
+    "title": None,
+    "description": None,
+    "date": None,
+    "time": None,
+    "location": None
+}
+
+errors = {} # Use a dictionary to hold only the errors that occur
+
+event["title"] = input("Title?: ")
+event["description"] = input("Description?: ")
+event["date"] = input("Date? (dd/mm/yyyy): ")
+event["time"] = input("Time?: ")
+event["location"] = input("Location?: ")
+
+def check_For_Errors():
+    """
+    Checks for empty event fields and populates the errors dictionary.
+    Includes a check to ensure the date is in the future.
+    """
+    # Check for empty fields
+    if not event["title"]:
+        errors["title"] = "Event Title Cannot Be Empty"
+
+    if not event["description"]:
+        errors["description"] = "Event Description Cannot Be Empty"
+
+    if not event["date"]:
+        errors["date"] = "Event Date Cannot Be Empty"
+    else:
+        # If the date is not empty, check if it's a valid future date
+        current_date = datetime.now().date()
+        try:
+            input_date = datetime.strptime(event["date"], '%d/%m/%Y').date()
+            if input_date <= current_date:
+                errors["date"] = "Event Date must be a future date."
+        except ValueError:
+            # This handles cases where the date string is in the wrong format
+            errors["date"] = "Invalid date format. Please use dd/mm/yyyy."
+
+    if not event["time"]:
+        errors["time"] = "Event Time Cannot Be Empty"
+
+    if not event["location"]:
+        errors["location"] = "Event Location Cannot Be Empty"
+
+    return errors
+
+event_errors = check_For_Errors()
+
+if event_errors:
+    print("Errors found:")
+    for key, value in event_errors.items():
+        print(f"- {value}")
+else:
+    print("No errors found. Event is valid.")
+    print("\n--- New Event Details ---")
+    print(f"Title: {event['title']}")
+    print(f"Description: {event['description']}")
+    print(f"Date: {event['date']}")
+    print(f"Time: {event['time']}")
+    print(f"Location: {event['location']}")
+
+---
