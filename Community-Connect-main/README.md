@@ -200,3 +200,8 @@ Description: Non-Compulsory Year 6 Excursion to Taronga Zoo\
 Date: 21/01/2026\
 Time: 0830\
 Location: School Courtyard
+
+## Week 5 - Data Base Developement
+
+### Data Base Setup
+Google classroom tutorial was used to setup bash and the database. The data base was then copied into the repository. Mock data was generated using mockaroo and formatted using microsoft excel. The Excel sheets were exported as .csv files and imported into the database
